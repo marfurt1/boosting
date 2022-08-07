@@ -49,12 +49,13 @@ y = df[['Survived']]
 
 
 filename1 = '../models/finalized_model.sav' #use absolute path
-loaded_model = pickle.load(open(filename1, 'rb'))
+loaded_model1 = pickle.load(open(filename1, 'rb'))
 
 
 #***************** MODEL BOOSTING - XGB*******************
 
-
 filename = '../models/xgb_model.sav' #use absolute path
 loaded_model = pickle.load(open(filename, 'rb'))
+
+
 
