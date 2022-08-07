@@ -47,6 +47,7 @@ y = df[['Survived']]
 
 #***************** MODEL GRADIENT BOOSTING - sklearn*******************
 
+
 filename1 = '../models/finalized_model.sav' #use absolute path
 loaded_model = pickle.load(open(filename1, 'rb'))
 
